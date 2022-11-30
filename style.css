@@ -1,0 +1,59 @@
+input[type=text],
+input[type=date],
+input[type=number],
+select {
+    width: 80%;
+    padding: 15px 20px;
+    background: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add{
+    width: 175px;
+}
+
+.object-table{
+    position: relative;
+    padding: 55px;
+    margin-left: 45%;
+    bottom: 240px;
+}
+
+span {
+    color: red;
+    font-size: 10px;
+}
+
+#add {
+    width: 40%;
+    margin-left: 25%;
+    padding: 15px 0;
+    background: mediumblue;
+    border: none;
+    outline: none;
+}
+#add:hover {
+    background: lightblue;
+}
+
+.tableBox {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    flex-direction: row;
+    box-shadow: 13px 16px 78px 44px rgba(0,0,0,0.11);
+    -webkit-box-shadow: 13px 16px 78px 44px rgba(0,0,0,0.11);
+    -moz-box-shadow: 13px 16px 78px 44px rgba(0,0,0,0.11);
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+td,th{
+    text-align: center;
+    padding: 10px 0;
+}

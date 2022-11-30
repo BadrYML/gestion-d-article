@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="sect1">
+        <div class="object-input">
+            <span id="nameOutput"></span><br>
+            <input type="text" id="nameInput" placeholder="Name"><br>
+        </div>
+
+        <div class="object-input">
+            <span id="brandOutput"></span><br>
+            <input type="text" id="brandInput" placeholder="Brand"><br>
+        </div>
+
+        <div class="object-input">
+            <span id="priceOutput"></span><br>
+            <input type="number" id="priceInput" placeholder="Price" ><br>
+        </div>
+
+        <div class="object-input">
+            <span id="dateOutput"></span><br>
+            <input type="date" id="dateInput" placeholder="Production Date"><br>
+        </div>
+
+        <div class="object-input">
+            <span id="typeOutput"></span><br>
+            <select name="menu" id="typeSelect">
+                <option selected></option>
+                <option value="opt1">hygiène et toilette</option>
+                <option value="opt2">soins esthétiques</option>
+                <option value="opt3">produits solaires</option>
+                <option value="opt4">beauté des mains et des pieds</option>
+                <option value="opt5">produits de maquillage</option>
+                <option value="opt6">entretien capillaires</option>
+                <option value="opt7">parfums</option>
+            </select>
+        </div>
+
+        <div class="object-input">
+            <label id="sale">On Sale:</label><br>
+            <input type="radio" id="ans1">Yes<br>
+            <input type="radio" id="ans2">No<br>
+            <span id="saleOutput"></span><br>
+        </div>
+
+        <div class="object-input">
+            <button id="add" onclick="inputCheck()">Add</button>
+        </div>
+    </div>
+
+    <section class="container table">
+        <div class="tableBox">
+            <table id="myTable" style="width:100%">
+                <tr id="TableLength">
+                  <th>Nom du produit</th>
+                  <th>La marque du produit</th>
+                  <th>Prix</th>
+                  <th id="th">Type du produit</th>
+                  <th>Date de production</th>
+                  <th>Produit en promotion ?</th>
+                  <th>Action</th>
+                </tr>  
+            </table>
+        </div>
+    </section>
+</body> 
+</html>
